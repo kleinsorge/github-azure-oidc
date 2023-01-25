@@ -25,8 +25,3 @@ jobs:
           az group list
           pwd
           
-    - name: Azure PowerShell Action
-      uses: Azure/powershell@v1
-      with:
-        inlineScript: Get-AzResourceGroup -Name "< YOUR RESOURCE GROUP >"
-        azPSVersion: "latest"
